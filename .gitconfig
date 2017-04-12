@@ -1,0 +1,16 @@
+[user]
+	name = Barnaby Alter
+	email = barnaby.alter@nyu.edu
+[core]
+	excludesfile = /Users/barnabyalter/.gitignore_global
+[push]
+	default = matching
+[alias]
+	amend = commit --amend
+	s = status -s -b
+	lg = log --decorate --color --oneline --graph
+	mergef = merge --no-ff
+[merge "ours"]
+	driver = true
+[url "https://"]
+	insteadOf = git://

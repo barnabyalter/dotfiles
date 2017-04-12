@@ -1,0 +1,27 @@
+alias desktop='cd ~/Desktop'
+alias home='cd ~'
+alias singleapp="~/singleapp.sh"
+alias showhide="~/showhide.sh"
+
+alias be='noglob bundle exec'
+alias rake='be rake'
+alias guard='be guard'
+alias rspec='be rspec'
+alias cukes='be cucumber --require features'
+alias cap='be cap'
+alias mina='be mina'
+alias pry-remote='ruby /apps/pry-remote.rb'
+
+alias gpo='git push origin'
+alias glo='git pull origin'
+
+alias nginx_conf='cd /usr/local/etc/nginx/'
+alias ngcc='cd /usr/local/etc/nginx/'
+alias nginx_root='cd /usr/local/var/www'
+
+alias pow='touch ~/.pow/restart.txt'
+
+alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
+alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
+
+alias reload='source ~/.profile'

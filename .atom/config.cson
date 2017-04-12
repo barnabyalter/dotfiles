@@ -1,0 +1,31 @@
+"*":
+  Zen: {}
+  "atom-beautify":
+    general:
+      _analyticsUserId: "9be8b424-d3ba-432b-81d3-c3908cd3d891"
+  core:
+    disabledPackages: [
+      "background-matrix"
+    ]
+    ignoredNames: [
+      ".git"
+      ".svn"
+      ".DS_Store"
+      "node_modules"
+    ]
+    telemetryConsent: "no"
+  editor:
+    fontSize: 18
+    invisibles: {}
+    showIndentGuide: true
+  "exception-reporting":
+    userId: "82f36ffc-3d2e-3984-428d-16cdccf1599b"
+  metrics:
+    userId: "cb25de49b8f6a83952f0185b546b80d2f32819a1"
+  "release-notes":
+    viewedVersion: "0.92.0"
+  "tree-view":
+    autoReveal: true
+    hideIgnoredNames: true
+  welcome:
+    showOnStartup: false
