@@ -10,7 +10,7 @@ alias rspec='be rspec'
 alias cukes='be cucumber --require features'
 alias cap='be cap'
 alias mina='be mina'
-alias pry-remote='ruby /apps/pry-remote.rb'
+alias pry-remote='ruby ~/pry-remote.rb'
 
 alias gpo='git push origin'
 alias glo='git pull origin'
