@@ -1,0 +1,10 @@
+# Docker aliases
+alias drm='docker rm $(docker ps -qa --no-trunc --filter "status=exited")'
+alias drmi='docker rmi $(docker images --filter "dangling=true" -q --no-trunc)'
+alias compose='docker-compose'
+alias dc='docker-compose'
+alias dm='docker-machine'
+
+# Load docker machine default env
+eval "$(docker-machine env default)"
+

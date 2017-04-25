@@ -25,7 +25,6 @@
   "release-notes":
     viewedVersion: "0.92.0"
   "tree-view":
-    autoReveal: true
     hideIgnoredNames: true
   welcome:
     showOnStartup: false

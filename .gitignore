@@ -1,0 +1,21 @@
+.atom/storage/
+.atom/compile-cache/
+.atom/.apm/
+.atom/.node-gyp/
+.atom/blob-store/
+.atom/recovery/
+.npm
+# Ignore everything in this directory
+*
+# Except this file
+!.gitignore
+!.atom
+!.aliases
+!.gitconfig
+!.profile
+!.zshrc
+!.dockerrc
+!.rbenvrc
+!.nodenvrc
+!showhide.sh
+!singleapp.sh
