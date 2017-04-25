@@ -9,4 +9,4 @@ export PATH=/usr/local/sbin:$HOME/.nodenv/shims:$HOME/.rbenv/bin:/usr/local/bin:
 
 source ~/.rbenvrc
 source ~/.dockerrc
-source ~/.nodeenvrc
+source ~/.nodenvrc

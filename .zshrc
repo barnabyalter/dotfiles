@@ -67,10 +67,3 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 source "$HOME/.profile"
 
-source ~/perl5/perlbrew/etc/bashrc
-
-export PATH=/usr/local/sbin:$HOME/.nodenv/shims:$HOME/.rbenv/bin:/usr/local/bin:$PATH
-
-eval "$(rbenv init -)"
-eval "$(docker-machine env default)"
-eval "$(nodenv init -)"
