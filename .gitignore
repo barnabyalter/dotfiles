@@ -9,6 +9,7 @@
 *
 # Except this file
 !.gitignore
+!Brewfile
 !.atom
 !.aliases
 !.gitconfig
