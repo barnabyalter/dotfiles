@@ -4,7 +4,6 @@ alias drmi='docker rmi $(docker images --filter "dangling=true" -q --no-trunc)'
 alias compose='docker-compose'
 alias dc='docker-compose'
 alias dm='docker-machine'
+alias dr='docker'
 
-# Load docker machine default env
-eval "$(docker-machine env default)"
 
