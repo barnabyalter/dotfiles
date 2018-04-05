@@ -5,5 +5,3 @@ alias compose='docker-compose'
 alias dc='docker-compose'
 alias dm='docker-machine'
 alias dr='docker'
-
-
