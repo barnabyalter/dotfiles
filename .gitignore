@@ -4,7 +4,6 @@
 !.gitignore
 !Brewfile
 !.kuberc
-!.atom
 !.aliases
 !.gitconfig
 !.profile
