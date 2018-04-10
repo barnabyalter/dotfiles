@@ -3,14 +3,14 @@
 export PATH=/usr/local/sbin:$HOME/.nodenv/shims:$HOME/.rbenv/bin:/usr/local/bin:$PATH
 
 FILES=(
-"~/perl5/perlbrew/etc/bashrc"
-"~/.ssh_aliases"
-"~/.aliases"
-"~/.rbenvrc"
-"~/.dockerrc"
-"~/.nodenvrc"
-"~/.awscreds"
-"~/.kuberc"
+"$HOME/perl5/perlbrew/etc/bashrc"
+"$HOME/.ssh_aliases"
+"$HOME/.aliases"
+"$HOME/.rbenvrc"
+"$HOME/.dockerrc"
+"$HOME/.nodenvrc"
+"$HOME/.awscreds"
+"$HOME/.kuberc"
 )
 
 for f in $FILES; do
