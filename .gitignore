@@ -3,6 +3,7 @@
 # Except this file
 !.gitignore
 !Brewfile
+!.kuberc
 !.atom
 !.aliases
 !.gitconfig

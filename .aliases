@@ -18,11 +18,9 @@ alias nginx_conf='cd /usr/local/etc/nginx/'
 alias ngcc='cd /usr/local/etc/nginx/'
 alias nginx_root='cd /usr/local/var/www'
 
-alias kc='kubectl'
-alias kup='eval $(minikube docker-env)'
-source <(kubectl completion zsh)
+alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
 
-alias reload='source ~/.zshrc'
+alias reload='source ~/.profile'
