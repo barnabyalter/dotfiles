@@ -13,6 +13,7 @@ alias pry-remote='ruby ~/pry-remote.rb'
 
 alias gpo='git push origin'
 alias glo='git pull origin'
+alias gco='git checkout'
 
 alias nginx_conf='cd /usr/local/etc/nginx/'
 alias ngcc='cd /usr/local/etc/nginx/'
