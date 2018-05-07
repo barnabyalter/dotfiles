@@ -5,19 +5,13 @@ alias showhide="~/showhide.sh"
 
 alias be='noglob bundle exec'
 alias rake='be rake'
-alias guard='be guard'
 alias rspec='be rspec'
 alias cukes='be cucumber --require features'
 alias cap='be cap'
-alias pry-remote='ruby ~/pry-remote.rb'
 
 alias gpo='git push origin'
 alias glo='git pull origin'
 alias gco='git checkout'
-
-alias nginx_conf='cd /usr/local/etc/nginx/'
-alias ngcc='cd /usr/local/etc/nginx/'
-alias nginx_root='cd /usr/local/var/www'
 
 alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 
