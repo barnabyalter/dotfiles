@@ -1,6 +1,7 @@
 #!/bin/sh
 
 export PATH=/usr/local/sbin:$HOME/.nodenv/shims:$HOME/.rbenv/bin:/usr/local/bin:$PATH
+export GOPATH=$HOME/go
 
 FILES=(
 "$HOME/perl5/perlbrew/etc/bashrc"

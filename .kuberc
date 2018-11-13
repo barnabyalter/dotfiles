@@ -1,5 +1,5 @@
-alias kc='kubectl'
 alias kup='eval $(minikube docker-env)'
+alias kc='echo "Context: $(kubectl config current-context)" && kubectl'
 if [ $commands[kubectl] ]; then
   source <(kubectl completion zsh)
 fi

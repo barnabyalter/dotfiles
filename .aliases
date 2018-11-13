@@ -21,3 +21,4 @@ alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall F
 alias kubefigs='docker run -v $(pwd):/data -e "SRC=/data" nyulibraries/kubefigs'
 
 alias reload='source ~/.profile'
+alias clear_history='cat /dev/null > ~/.zsh_history'

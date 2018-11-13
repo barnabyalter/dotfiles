@@ -14,3 +14,5 @@
 	driver = true
 [url "https://"]
 	insteadOf = git://
+[credential]
+	helper = osxkeychain
