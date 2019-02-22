@@ -1,5 +1,5 @@
 alias kup='eval $(minikube docker-env)'
-alias kc='echo "Context: $(kubectl config current-context)" && kubectl'
+alias kc='git -C ~/apps/k8s pull && echo "Context: $(kubectl config current-context)" && kubectl'
 alias kcdev='kubectl config use-context dev'
 alias kcprod='kubectl config use-context prod'
 if [ $commands[kubectl] ]; then
