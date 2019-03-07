@@ -1,6 +1,6 @@
 #!/bin/sh
 
-export PATH=/usr/local/sbin:$HOME/.nodenv/shims:$HOME/.rbenv/bin:/usr/local/bin:$PATH
+export PATH=/usr/local/opt/openssl/bin:/usr/local/sbin:$HOME/.nodenv/shims:$HOME/.rbenv/bin:/usr/local/bin:$PATH
 export GOPATH=$HOME/go
 
 FILES=(
