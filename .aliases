@@ -19,6 +19,8 @@ alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall 
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
 
 alias kubefigs='docker run -v $(pwd):/data -e "SRC=/data" nyulibraries/kubefigs'
+alias helm-templates='docker run -v $(pwd):/apps helm-templates'
+alias helm='docker run -v $(pwd):/apps alpine/helm:2.8.2'
 
 alias reload='source ~/.profile'
 alias clear_history='cat /dev/null > ~/.zsh_history'
