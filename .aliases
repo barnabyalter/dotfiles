@@ -8,6 +8,7 @@ alias rake='be rake'
 alias rspec='be rspec'
 alias cukes='be cucumber --require features'
 alias cap='be cap'
+alias tf='terraform'
 
 alias gpo='git push origin'
 alias glo='git pull origin'
