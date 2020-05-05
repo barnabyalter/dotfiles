@@ -2,5 +2,4 @@
 alias drm='docker rm $(docker ps -qa --no-trunc --filter "status=exited")'
 alias drmi='docker rmi $(docker images --filter "dangling=true" -q --no-trunc)'
 alias dc='docker-compose'
-alias dm='docker-machine'
 alias dr='docker'
