@@ -3,3 +3,5 @@ alias drm='docker rm $(docker ps -qa --no-trunc --filter "status=exited")'
 alias drmi='docker rmi $(docker images --filter "dangling=true" -q --no-trunc)'
 alias dc='docker-compose'
 alias dr='docker'
+alias drstop='docker stop $(docker ps -a -q)'
+
