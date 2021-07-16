@@ -1,7 +1,7 @@
 #!/bin/sh
 
 export PATH=/usr/local/opt/openssl/bin:/usr/local/sbin:$HOME/.nodenv/shims:$HOME/.rbenv/bin:/usr/local/bin:$PATH
-export PATH=$PATH:$HOME/.linkerd2/bin
+export PATH=$PATH:$HOME/.cargo/bin:$HOME/.linkerd2/bin
 export GOPATH=$HOME/go
 
 FILES=(
@@ -13,6 +13,7 @@ FILES=(
 "$HOME/.nodenvrc"
 "$HOME/.awscreds"
 "$HOME/.kuberc"
+"$HOME/.cargo/env"
 )
 
 for f in $FILES; do
@@ -21,3 +22,5 @@ for f in $FILES; do
   fi
 done
 
+
+export PATH="$HOME/.cargo/bin:$PATH"
