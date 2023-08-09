@@ -3,6 +3,7 @@
 export PATH=/usr/local/opt/openssl/bin:/usr/local/sbin:$HOME/.nodenv/shims:$HOME/.rbenv/bin:/usr/local/bin:$PATH
 export PATH=$PATH:$HOME/.cargo/bin:$HOME/.linkerd2/bin
 export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
 
 FILES=(
 "$HOME/perl5/perlbrew/etc/bashrc"

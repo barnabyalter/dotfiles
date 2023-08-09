@@ -1,9 +1,4 @@
-alias kup='eval $(minikube docker-env)'
-alias kc='git -C ~/apps/k8s pull && echo "Context: $(kubectl config current-context)" && kubectl'
-alias kcm='kc -n monitoring'
-alias kcdev='kubectl config use-context dev'
-alias kclab='kubectl config use-context lab'
-alias kcprod='kubectl config use-context prod'
+alias kc='echo "Context: $(kubectl config current-context)" && kubectl'
 if [ $commands[kubectl] ]; then
   source <(kubectl completion zsh)
 fi

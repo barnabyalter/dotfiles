@@ -3,11 +3,6 @@ alias home='cd ~'
 alias singleapp="~/singleapp.sh"
 alias showhide="~/showhide.sh"
 
-alias be='noglob bundle exec'
-alias rake='be rake'
-alias rspec='be rspec'
-alias cukes='be cucumber --require features'
-alias cap='be cap'
 alias tf='terraform'
 
 alias gpo='git push origin'
@@ -19,14 +14,9 @@ alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
 
-alias kubefigs='docker run -v $(pwd):/data -e "SRC=/data" nyulibraries/kubefigs'
 alias helm-templates='docker run -v $(pwd):/apps helm-templates'
 alias helm='docker run -v $(pwd):/apps alpine/helm:2.8.2'
 
 alias reload='source ~/.profile'
 alias clear_history='cat /dev/null > ~/.zsh_history'
 
-alias awsdev='export AWS_PROFILE=ba36-litsdev && echo "nyulitsdev (Dev)"'
-alias awsprod='export AWS_PROFILE=ba36-lits && echo "nyulits (Prod)"'
-alias awsgenmfa='curl -s https://raw.githubusercontent.com/Systems-NYULib/aws-get-mfa-token/main/generate-mfa-cli-token.sh | bash -s'
-alias awsmfa='export AWS_PROFILE=mfa && echo "mfa (Dev)"'
